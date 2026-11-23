@@ -1,5 +1,5 @@
 
-package banking;
+package model;
 
 import java.util.ArrayList;
 

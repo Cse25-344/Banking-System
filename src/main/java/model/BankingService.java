@@ -1,7 +1,9 @@
 
-package com.example.bankingsystemgui;
+package model;
 
-import banking.*;
+import dao.AccountDAO;
+import dao.CustomerDAO;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 

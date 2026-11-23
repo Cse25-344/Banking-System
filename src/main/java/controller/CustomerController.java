@@ -1,7 +1,12 @@
 
-package com.example.bankingsystemgui;
+package controller;
 
-import banking.*;
+import model.BankingService;
+import dao.CustomerDAO;
+import model.CompanyCustomer;
+import model.Customer;
+import model.IndividualCustomer;
+
 import java.sql.SQLException;
 
 public class CustomerController {

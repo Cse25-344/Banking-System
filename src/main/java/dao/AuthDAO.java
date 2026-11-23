@@ -1,5 +1,7 @@
 
-package com.example.bankingsystemgui;
+package dao;
+
+import util.DatabaseConnection;
 
 import java.sql.*;
 import java.security.MessageDigest;

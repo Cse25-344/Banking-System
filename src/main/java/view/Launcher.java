@@ -1,4 +1,4 @@
-package com.example.bankingsystemgui;
+package view;
 
 import javafx.application.Application;
 

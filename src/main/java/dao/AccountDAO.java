@@ -1,7 +1,9 @@
 
-package com.example.bankingsystemgui;
+package dao;
 
-import banking.*;
+import model.BankingService;
+import util.DatabaseConnection;
+import model.*;
 
 import java.math.BigDecimal;
 import java.sql.Connection;

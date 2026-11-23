@@ -1,6 +1,10 @@
 
-package com.example.bankingsystemgui;
+package view;
 
+import model.BankingService;
+import util.DatabaseSetup;
+import controller.*;
+import dao.AuthDAO;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;

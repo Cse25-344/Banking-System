@@ -1,5 +1,5 @@
 
-package banking;
+package interfaces;
 
 import java.math.BigDecimal;
 import java.time.YearMonth;

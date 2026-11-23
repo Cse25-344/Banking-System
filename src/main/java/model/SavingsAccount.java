@@ -1,5 +1,7 @@
 
-package banking;
+package model;
+
+import interfaces.InterestBearing;
 
 import java.math.BigDecimal;
 import java.time.YearMonth;

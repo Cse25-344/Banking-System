@@ -1,7 +1,8 @@
 
-package com.example.bankingsystemgui;
+package controller;
 
-import banking.Account;
+import model.BankingService;
+import model.Account;
 
 public class CustomerPortalController {
 

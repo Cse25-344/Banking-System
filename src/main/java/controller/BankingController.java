@@ -1,7 +1,8 @@
 
-package com.example.bankingsystemgui;
+package controller;
 
-import banking.*;
+import interfaces.InterestBearing;
+import model.*;
 
 import java.math.BigDecimal;
 import java.time.YearMonth;

@@ -1,5 +1,11 @@
 
-package com.example.bankingsystemgui;
+package dao;
+
+import model.BankingService;
+import util.DatabaseConnection;
+import model.CompanyCustomer;
+import model.Customer;
+import model.IndividualCustomer;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -99,11 +105,11 @@ public class CustomerDAO {
                 String registrationNumber =
                         result.getString("registration_number");
 
-                banking.Customer customer;
+                Customer customer;
 
                 if ("Individual".equals(type)) {
 
-                    customer = new banking.IndividualCustomer(
+                    customer = new IndividualCustomer(
                             id,
                             address,
                             name,
@@ -115,7 +121,7 @@ public class CustomerDAO {
 
                 } else if ("Company".equals(type)) {
 
-                    customer = new banking.CompanyCustomer(
+                    customer = new CompanyCustomer(
                             id,
                             address,
                             name,

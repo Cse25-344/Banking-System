@@ -1,5 +1,5 @@
 
-package banking;
+package model;
 
 public class CompanyCustomer extends Customer {
 
